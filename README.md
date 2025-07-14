@@ -60,7 +60,7 @@ A Kaggle account and API token (for dataset download)
 
 Clone the Repository:
 
-git clone https://github.com/your-username/pet-classifier.git
+git clone (https://github.com/mdowais-39/Pet-Classification)
 
 cd pet-classifier
 
