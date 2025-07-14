@@ -1,4 +1,4 @@
-Pet Classifier: A Deep Learning Model for Pet Breed Identification
+🐈Pet Classifier: A Deep Learning Model for Pet Breed Identification
 
 📖 Project Overview
 The Pet Classifier is a deep learning project designed to classify images of pets into their respective breeds. Built using Python, TensorFlow/Keras, and Jupyter Notebook, this project leverages convolutional neural networks (CNNs) to achieve high-accuracy image classification. The model is trained on the Oxford-IIIT Pet Dataset and includes data preprocessing, model training, evaluation, and visualization of performance metrics.
@@ -63,9 +63,11 @@ jupyter notebook
 
 📈 Usage
 
-Open the Notebook:Open Pet_classifier.ipynb in Jupyter Notebook.
+Open the Notebook:
+Open Pet_classifier.ipynb in Jupyter Notebook.
 
-Run the Cells:Execute the cells sequentially to:
+Run the Cells:
+Execute the cells sequentially to:
 
 Import necessary libraries (numpy, pandas, matplotlib, etc.).
 Load and preprocess the image dataset from the ./images directory.
@@ -74,15 +76,18 @@ Evaluate the model on the test set.
 Visualize training and validation accuracy/loss.
 
 
-Model Evaluation:The notebook includes code to evaluate the model on the test set (X_test, y_test), producing metrics such as:
+Model Evaluation:
+The notebook includes code to evaluate the model on the test set (X_test, y_test), producing metrics such as:
 
 Test Loss: 0.2769
 Test Accuracy: 91.54%The evaluation results are displayed after running the model.evaluate(X_test, y_test) cell.
 
 
-Predictions:Use the model.predict(X_test) cell to generate predictions (y_pred) for the test set. The output is an array of probabilities for each class.
+Predictions:
+Use the model.predict(X_test) cell to generate predictions (y_pred) for the test set. The output is an array of probabilities for each class.
 
-Visualizations:The notebook generates two plots:
+Visualizations:
+The notebook generates two plots:
 
 Training and Validation Accuracy: Compares the model's accuracy on training and validation sets over 10 epochs.
 Training and Validation Loss: Shows the loss trends for training and validation sets.
@@ -104,8 +109,3 @@ Softmax Output: To produce probabilities for each pet breed.
 
 The model is trained over 10 epochs, with performance metrics tracked for both training and validation sets.
 
-📜 Requirements
-The project dependencies are listed in the requirements.txt file.
-
-
-numpy==1.26.4pandas==2.2.2matplotlib==3.8.4tensorflow==2.16.1jupyter==1.0.0pillow==10.3.0kagglehub==0.3.12
